@@ -21,7 +21,7 @@ jobs:
           
       - name: Build Arch package
         run: |
-          su -s /bin/bash nobody -c "makepkg -s --nodeps && mkdir pkgout && mv *.tar.zst pkgout"
+          su -s /bin/bash nobody -c "makepkg -s --nodeps --skipinteg && mkdir pkgout && mv *.tar.zst pkgout"
           
       - name: Add to arch repository
         run: |
