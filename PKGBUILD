@@ -4,7 +4,7 @@
 
 pkgbase=nvidia-utils
 pkgname=('nvidia-utils' 'opencl-nvidia' 'nvidia-dkms')
-pkgver=515.43.04
+pkgver=515.48.07
 pkgrel=2
 arch=('x86_64')
 url="http://www.nvidia.com/"
